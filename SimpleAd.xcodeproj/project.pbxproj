@@ -21,6 +21,7 @@
 		71A5A8A519635BB100B40A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88719635BB100B40A5C /* UIKit.framework */; };
 		71A5A8AD19635BB100B40A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71A5A8AB19635BB100B40A5C /* InfoPlist.strings */; };
 		71A5A8AF19635BB100B40A5C /* SimpleAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5A8AE19635BB100B40A5C /* SimpleAdTests.m */; };
+		71A5A8B9196471FA00B40A5C /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A8B8196471FA00B40A5C /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		71A5A8AA19635BB100B40A5C /* SimpleAdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleAdTests-Info.plist"; sourceTree = "<group>"; };
 		71A5A8AC19635BB100B40A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71A5A8AE19635BB100B40A5C /* SimpleAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleAdTests.m; sourceTree = "<group>"; };
+		71A5A8B8196471FA00B40A5C /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A5A8B9196471FA00B40A5C /* iAd.framework in Frameworks */,
 				71A5A88619635BB100B40A5C /* CoreGraphics.framework in Frameworks */,
 				71A5A88819635BB100B40A5C /* UIKit.framework in Frameworks */,
 				71A5A88419635BB100B40A5C /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		71A5A88219635BB100B40A5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71A5A8B8196471FA00B40A5C /* iAd.framework */,
 				71A5A88319635BB100B40A5C /* Foundation.framework */,
 				71A5A88519635BB100B40A5C /* CoreGraphics.framework */,
 				71A5A88719635BB100B40A5C /* UIKit.framework */,
