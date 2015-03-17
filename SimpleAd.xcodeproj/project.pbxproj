@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68F88BDA1AB8A8A100CE5BB8 /* InterstitialSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F88BD91AB8A8A100CE5BB8 /* InterstitialSampleViewController.m */; };
 		71A5A88419635BB100B40A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88319635BB100B40A5C /* Foundation.framework */; };
 		71A5A88619635BB100B40A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88519635BB100B40A5C /* CoreGraphics.framework */; };
 		71A5A88819635BB100B40A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88719635BB100B40A5C /* UIKit.framework */; };
 		71A5A88E19635BB100B40A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71A5A88C19635BB100B40A5C /* InfoPlist.strings */; };
 		71A5A89019635BB100B40A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5A88F19635BB100B40A5C /* main.m */; };
-		71A5A89419635BB100B40A5C /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5A89319635BB100B40A5C /* SAAppDelegate.m */; };
+		71A5A89419635BB100B40A5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5A89319635BB100B40A5C /* AppDelegate.m */; };
 		71A5A89719635BB100B40A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A5A89519635BB100B40A5C /* Main.storyboard */; };
-		71A5A89A19635BB100B40A5C /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5A89919635BB100B40A5C /* SAViewController.m */; };
+		71A5A89A19635BB100B40A5C /* AdBannerSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5A89919635BB100B40A5C /* AdBannerSampleViewController.m */; };
 		71A5A89C19635BB100B40A5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A5A89B19635BB100B40A5C /* Images.xcassets */; };
 		71A5A8A319635BB100B40A5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A8A219635BB100B40A5C /* XCTest.framework */; };
 		71A5A8A419635BB100B40A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88319635BB100B40A5C /* Foundation.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68F88BD81AB8A8A100CE5BB8 /* InterstitialSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialSampleViewController.h; sourceTree = "<group>"; };
+		68F88BD91AB8A8A100CE5BB8 /* InterstitialSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialSampleViewController.m; sourceTree = "<group>"; };
 		71A5A88019635BB100B40A5C /* SimpleAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A5A88319635BB100B40A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71A5A88519635BB100B40A5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -43,11 +46,11 @@
 		71A5A88D19635BB100B40A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71A5A88F19635BB100B40A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71A5A89119635BB100B40A5C /* SimpleAd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleAd-Prefix.pch"; sourceTree = "<group>"; };
-		71A5A89219635BB100B40A5C /* SAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAppDelegate.h; sourceTree = "<group>"; };
-		71A5A89319635BB100B40A5C /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
+		71A5A89219635BB100B40A5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71A5A89319635BB100B40A5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71A5A89619635BB100B40A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		71A5A89819635BB100B40A5C /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
-		71A5A89919635BB100B40A5C /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
+		71A5A89819635BB100B40A5C /* AdBannerSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdBannerSampleViewController.h; sourceTree = "<group>"; };
+		71A5A89919635BB100B40A5C /* AdBannerSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdBannerSampleViewController.m; sourceTree = "<group>"; };
 		71A5A89B19635BB100B40A5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71A5A8A119635BB100B40A5C /* SimpleAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A5A8A219635BB100B40A5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -116,11 +119,13 @@
 		71A5A88919635BB100B40A5C /* SimpleAd */ = {
 			isa = PBXGroup;
 			children = (
-				71A5A89219635BB100B40A5C /* SAAppDelegate.h */,
-				71A5A89319635BB100B40A5C /* SAAppDelegate.m */,
+				71A5A89219635BB100B40A5C /* AppDelegate.h */,
+				71A5A89319635BB100B40A5C /* AppDelegate.m */,
 				71A5A89519635BB100B40A5C /* Main.storyboard */,
-				71A5A89819635BB100B40A5C /* SAViewController.h */,
-				71A5A89919635BB100B40A5C /* SAViewController.m */,
+				71A5A89819635BB100B40A5C /* AdBannerSampleViewController.h */,
+				71A5A89919635BB100B40A5C /* AdBannerSampleViewController.m */,
+				68F88BD81AB8A8A100CE5BB8 /* InterstitialSampleViewController.h */,
+				68F88BD91AB8A8A100CE5BB8 /* InterstitialSampleViewController.m */,
 				71A5A89B19635BB100B40A5C /* Images.xcassets */,
 				71A5A88A19635BB100B40A5C /* Supporting Files */,
 			);
@@ -254,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71A5A89419635BB100B40A5C /* SAAppDelegate.m in Sources */,
-				71A5A89A19635BB100B40A5C /* SAViewController.m in Sources */,
+				71A5A89419635BB100B40A5C /* AppDelegate.m in Sources */,
+				71A5A89A19635BB100B40A5C /* AdBannerSampleViewController.m in Sources */,
+				68F88BDA1AB8A8A100CE5BB8 /* InterstitialSampleViewController.m in Sources */,
 				71A5A89019635BB100B40A5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				71A5A8B419635BB100B40A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A5A8B519635BB100B40A5C /* Build configuration list for PBXNativeTarget "SimpleAdTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				71A5A8B719635BB100B40A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

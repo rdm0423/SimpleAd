@@ -6,23 +6,20 @@
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 
-#import "SAViewController.h"
+#import "AdBannerSampleViewController.h"
 #import <iAd/iAd.h>
 
-@interface SAViewController () <ADBannerViewDelegate>
+@interface AdBannerSampleViewController () <ADBannerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet ADBannerView *banner;
 
 @end
 
-@implementation SAViewController
+@implementation AdBannerSampleViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    CGRect frame = self.banner.frame;
-    self.banner.frame = CGRectMake(0, self.view.frame.size.height, frame.size.width, frame.size.height);
-    self.banner.delegate = self;
     
 }
 
@@ -37,20 +34,17 @@
 }
 
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner {
-    [UIView animateWithDuration:0.5 animations:^{
-        CGRect frame = self.banner.frame;
-        self.banner.frame = CGRectMake(0, self.view.frame.size.height - frame.size.height, frame.size.width, frame.size.height);
-        
-    }];
     
+    // great place to animate ad view in
+    NSLog(@"Ready to present the ad.");
 }
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
-
+    NSLog(@"Unable to fetch ad for display.");
 }
 
 - (void)bannerViewActionDidFinish:(ADBannerView *)banner {
-
+    NSLog(@"User dismissed or tapped on ad.");
 }
 
 

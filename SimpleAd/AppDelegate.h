@@ -1,5 +1,5 @@
 //
-//  SAViewController.h
+//  SAAppDelegate.h
 //  SimpleAd
 //
 //  Created by Joshua Howland on 7/1/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SAViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

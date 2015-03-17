@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 
-#import "SAAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation SAAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
