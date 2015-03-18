@@ -21,6 +21,8 @@
 		71A5A8A519635BB100B40A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88719635BB100B40A5C /* UIKit.framework */; };
 		71A5A8AD19635BB100B40A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71A5A8AB19635BB100B40A5C /* InfoPlist.strings */; };
 		71A5A8AF19635BB100B40A5C /* SimpleAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5A8AE19635BB100B40A5C /* SimpleAdTests.m */; };
+		FFB596EC1AB9EF49007B9491 /* SAInterstitualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB596EB1AB9EF49007B9491 /* SAInterstitualViewController.m */; };
+		FFB596EE1AB9F0A3007B9491 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB596ED1AB9F0A3007B9491 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		71A5A8AA19635BB100B40A5C /* SimpleAdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleAdTests-Info.plist"; sourceTree = "<group>"; };
 		71A5A8AC19635BB100B40A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71A5A8AE19635BB100B40A5C /* SimpleAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleAdTests.m; sourceTree = "<group>"; };
+		FFB596EA1AB9EF49007B9491 /* SAInterstitualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAInterstitualViewController.h; sourceTree = "<group>"; };
+		FFB596EB1AB9EF49007B9491 /* SAInterstitualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAInterstitualViewController.m; sourceTree = "<group>"; };
+		FFB596ED1AB9F0A3007B9491 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB596EE1AB9F0A3007B9491 /* iAd.framework in Frameworks */,
 				71A5A88619635BB100B40A5C /* CoreGraphics.framework in Frameworks */,
 				71A5A88819635BB100B40A5C /* UIKit.framework in Frameworks */,
 				71A5A88419635BB100B40A5C /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		71A5A88219635BB100B40A5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFB596ED1AB9F0A3007B9491 /* iAd.framework */,
 				71A5A88319635BB100B40A5C /* Foundation.framework */,
 				71A5A88519635BB100B40A5C /* CoreGraphics.framework */,
 				71A5A88719635BB100B40A5C /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				71A5A89519635BB100B40A5C /* Main.storyboard */,
 				71A5A89819635BB100B40A5C /* SAViewController.h */,
 				71A5A89919635BB100B40A5C /* SAViewController.m */,
+				FFB596EA1AB9EF49007B9491 /* SAInterstitualViewController.h */,
+				FFB596EB1AB9EF49007B9491 /* SAInterstitualViewController.m */,
 				71A5A89B19635BB100B40A5C /* Images.xcassets */,
 				71A5A88A19635BB100B40A5C /* Supporting Files */,
 			);
@@ -200,6 +209,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = DevMountain;
 				TargetAttributes = {
+					71A5A87F19635BB100B40A5C = {
+						DevelopmentTeam = 8859BW6G67;
+					};
 					71A5A8A019635BB100B40A5C = {
 						TestTargetID = 71A5A87F19635BB100B40A5C;
 					};
@@ -250,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB596EC1AB9EF49007B9491 /* SAInterstitualViewController.m in Sources */,
 				71A5A89419635BB100B40A5C /* SAAppDelegate.m in Sources */,
 				71A5A89A19635BB100B40A5C /* SAViewController.m in Sources */,
 				71A5A89019635BB100B40A5C /* main.m in Sources */,
@@ -377,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleAd/SimpleAd-Prefix.pch";
 				INFOPLIST_FILE = "SimpleAd/SimpleAd-Info.plist";
@@ -390,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleAd/SimpleAd-Prefix.pch";
 				INFOPLIST_FILE = "SimpleAd/SimpleAd-Info.plist";
@@ -457,6 +472,7 @@
 				71A5A8B419635BB100B40A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A5A8B519635BB100B40A5C /* Build configuration list for PBXNativeTarget "SimpleAdTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +481,7 @@
 				71A5A8B719635BB100B40A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

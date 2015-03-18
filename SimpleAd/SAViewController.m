@@ -7,8 +7,11 @@
 //
 
 #import "SAViewController.h"
+@import iAd;
 
-@interface SAViewController ()
+@interface SAViewController () <ADBannerViewDelegate>
+
+@property (weak, nonatomic) IBOutlet ADBannerView *bannerView;
 
 @end
 
@@ -17,7 +20,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    // moves banner view off the screen (hides until an Ad)
+    
+}
+
+//
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    
+    
+}
+
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+
 }
 
 - (void)didReceiveMemoryWarning
